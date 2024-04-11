@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> ZusNet</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#experience"> Experience </a></li>
+                    <li><a href="#projects"> Projects </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                </ul>
+            </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Jesus Salazar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()"> About </a></li>
+            <li><a href="#experience" onclick="toggleMenu()"> Experience </a></li>
+            <li><a href="#projects" onclick="toggleMenu()"> Projects </a></li>
+            <li><a href="#contact" onclick="toggleMenu()"> Contact </a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./Assets/Smiling1k.png" alt="">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Hello, I'm</p>
+            <h1 class="title">Jesus Salazar</h1>
+            <p class="section__text__p2">Systems Administrator</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Assets/resume.pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="window.location.href='#contact'">Contact</button>
+            </div>
+            <div id="socials-container">
+                <img src="./Assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/jesusosalazar'">
+                <img src="./Assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+
+                <div class="text-container">
+                    <p>
+                        Hello! I'm an experienced IT professional with over 5 years of dedication in the tech field. Throughout my journey, I've thrived in various roles, recently as a Systems Administrator at Girard’s Dressings and previously leading system administration efforts at Santa Monica Seafood and Juanita's Foods. My expertise spans managing and optimizing complex IT environments, cloud infrastructure deployment, and enhancing security measures to safeguard vital data and systems.<br>
+                        <br>
+                        What drives me is a relentless passion for continual learning and an unwavering drive to delve into emerging technologies. Whether it's automating processes to improve efficiency or implementing cutting-edge security solutions, I'm always eager to explore new ways to leverage technology for operational excellence. My experiences have not only honed my technical skills but also fostered a profound understanding of the strategic impact of IT on business success. <br>
+                        <br>
+                        Beyond technical prowess, I take pride in my ability to communicate effectively, manage projects with precision, and solve problems analytically. Fluent in English and Spanish, I navigate diverse environments with ease, fostering collaboration and driving initiatives that deliver tangible results. <br>
+                        <br>
+                        I created this website as part of the Azure Resume Challenge and it has been viewed <span id="countDisplay"></span> times.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section class="experience" id="experience">
+        <p class="section__text__p1"> I have experience with the following </p>
+        <h1 class="title"> Technologies </h1>
+        <div class="details-container">
+            <div class="logos">
+                <div class="logos-slide">
+                    <img 
+                    src="./Assets/Azure.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/AzureAD.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Office365.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/PowerAutomate.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Terraform.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/vmware.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Github.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Html5.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Powershell.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Wordpress.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/css.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/AdminCenter.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/PowerApps.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />                   
+                </div>
+                <div class="logos-slide">
+                    <img 
+                    src="./Assets/Azure.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/AzureAD.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Office365.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/PowerAutomate.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Terraform.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/vmware.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Github.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Html5.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Powershell.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/Wordpress.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/css.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/AdminCenter.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />
+                    <img 
+                    src="./Assets/PowerApps.svg" 
+                    alt=""
+                    
+                    class="icon icon-card"
+                    />                   
+                </div>
+
+            </div>
+        </div>
+
+        <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title"> Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/AzureCloudResumeChallenge.png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Azure Resume Challenge</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/soon.jpg" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/soon.jpg" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Assets/email.png" 
+                alt="Email icon"
+                class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:jxsalazar119@gmail.com">Email Me!</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Assets/linkedin.png" 
+                alt="LinkedIn icon"
+                class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/jesusosalazar">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#experience"> Experience </a></li>
+                    <li><a href="#projects"> Projects </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "AzureWebJobsStorage": "YOUR_ENDPOINT",
+      "FUNCTIONS_WORKER_RUNTIME": "python",
+      "COSMOS_DB_URL": "YOUR_URL",
+      "COSMOS_DB_KEY": "YOUR_KEY"
+    },
+    "Host":
+    {
+      "CORS":"*",
+      "CORSCredentials": false
+    }
+  }
+  
