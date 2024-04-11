@@ -5,6 +5,8 @@ I was on the lookout for projects to dive deeper into Azure when I stumbled upon
 
 Tackling this project had its tough moments, especially with figuring out the Azure functions and how everything worked together. But I managed to pull it off, and now I've got my own website up and running on Azure. It was a great way to apply what I've learned and step up my online game.
 
+Website: https://www.zusnet.com
+
 # Project Objectives
 This project consists of the following challenges:
 # Website Development:
